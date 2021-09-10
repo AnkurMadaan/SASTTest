@@ -38,8 +38,3 @@ jobs:
         with:
           directory: example
           framework: terraform
-          
-      - name: Test with cfn_nag
-        uses: stelligent/cfn_nag@master
-        with:
-          input_path: tests
